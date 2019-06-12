@@ -2,8 +2,8 @@ class Libsecp256k1 < Formula
   desc "Optimized C library for EC operations on curve secp256k1"
   homepage "https://github.com/bitcoin/secp256k1"
   url "https://github.com/bitcoin/secp256k1.git",
-      :revision => "735fbde04e07df9d29719fadec4841b973d624d5"
-  version "2019.05.18.735fbd" # Fake version number to make updates easier.
+      :revision => "fa3301713549d118e57ebe6551d062903ddd6b63"
+  version "2019.06.12.fa3301" # Fake version number to make updates easier.
   head "https://github.com/bitcoin/secp256k1.git"
 
   depends_on "automake" => :build
