@@ -6,6 +6,7 @@ class TippyLinux < Formula
   url "https://github.com/nervosnetwork/tippy/releases/download/v#{version}/tippy-linux-x64.tar.gz"
   desc "One click CKB devnet"
   homepage "https://github.com/nervosnetwork/tippy"
+  license "MIT"
 
   def install
     prefix.install "appsettings.json", "Tippy"
