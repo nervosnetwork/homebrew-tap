@@ -9,8 +9,7 @@ class TippyLinux < Formula
   license "MIT"
 
   def install
-    prefix.install "appsettings.json", "Tippy"
-    prefix.install Dir["BinDeps/*"]
-    prefix.install Dir["wwwroot/*"]
+    libexec.install Dir["*"]
+    bin.write_exec_script libexec/"Tippy"
   end
 end
