@@ -10,6 +10,12 @@ class TippyLinux < Formula
 
   def install
     libexec.install Dir["*"]
-    bin.write_exec_script libexec/"Tippy"
+
+    bin.mkpath
+    bin.join("tippy").write <<~EOS
+      #!/bin/bash
+      cd "#{Pathname.new(libexec)}"
+      ./Tippy
+    EOS
   end
 end
