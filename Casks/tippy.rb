@@ -1,6 +1,6 @@
 cask "tippy" do
-  version "0.2.3"
-  sha256 "508ed50243f1352c4ce9e1c99357d30504d9af9cc446a9628e5d199b35cea20f"
+  version "0.3.0"
+  sha256 "f67658ced8b6197d4cfb6026a80bd7dd6bd528b8a466c4e5e6e4e21578c51c07"
 
   url "https://github.com/nervosnetwork/tippy/releases/download/v#{version}/Tippy.dmg"
   name "Tippy"
