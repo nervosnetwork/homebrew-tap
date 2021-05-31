@@ -1,7 +1,7 @@
 
 class TippyLinux < Formula
-  version "0.3.0"
-  sha256 "be688a134afad868ad13bcf9d03ba1a396a364ab5b6fc715a7a9335a87084741"
+  version "0.3.1"
+  sha256 "77bc99cbc07e9c1a92f2be2101536724d82e47dd6edfd06306121903a7492735"
 
   url "https://github.com/nervosnetwork/tippy/releases/download/v#{version}/tippy-linux-x64.tar.gz"
   desc "One click CKB devnet"
